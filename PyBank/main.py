@@ -102,7 +102,7 @@ print(f"Average Change: ", currency_average)
 print(f"Greatest Increase in Profits: ", month_i ,currency_increase)
 print(f"Greatest Decrease in Profits: ", month_decrease, currency_decrease)
 
-# Write into the csv file in in the Analysis folder
+# Write into the text file in the Analysis folder
 docx_path = os.path.join('.','Analysis','output.txt')
 
 # Define a dictionary that contains explanations and variables   
